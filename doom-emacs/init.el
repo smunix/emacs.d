@@ -19,21 +19,21 @@
        ;;deft                                   ; Notational velocity for Emacs
        doom                                     ; What makes DOOM look the way it does
        doom-dashboard                           ; A nifty splash screen for Emacs
-       ;;doom-quit                              ; DOOM quit-message prompts when you quit Emacs
+       doom-quit                              ; DOOM quit-message prompts when you quit Emacs
        (emoji +unicode)                         ; 🙂
        hl-todo                                  ; Highlight TODO/FIXME/NOTE/DEPRECATED/HACK/REVIEW
        ;;hydra
        indent-guides                            ; Highlighted indent columns
        ligatures                                ; Ligatures and symbols to make your code pretty again
-       ;;minimap                                ; Show a map of the code on the side
+       minimap                                ; Show a map of the code on the side
        modeline                                 ; Snazzy, Atom-inspired modeline, plus API
        ;;nav-flash                              ; Blink cursor line after big motions
-       ;;neotree                                ; A project drawer, like NERDTree for vim
+       neotree                                ; A project drawer, like NERDTree for vim
        ophints                                  ; Highlight the region an operation acts on
        (popup +defaults)                        ; Tame sudden yet inevitable temporary windows
        tabs                                     ; A tab bar for Emacs
        treemacs                                 ; A project drawer, like neotree but cooler
-       ;;unicode                                ; Extended unicode support for various languages
+       unicode                                ; Extended unicode support for various languages
        (vc-gutter +pretty)                      ; Vcs diff in the fringe
        vi-tilde-fringe                          ; Fringe tildes to mark beyond EOB
        ;;window-select                          ; Visually switch windows
@@ -76,7 +76,7 @@
        ;;ansible                                ; A crucible for infrastructure as code
        ;;biblio                                 ; Writes a PhD for you (citation needed)
        ;;debugger                               ; FIXME stepping through code, to help you add bugs
-       ;;direnv
+       direnv
        ;;docker
        editorconfig                             ; Let someone else argue about tabs vs spaces
        ;;ein                                    ; Tame Jupyter notebooks with emacs
@@ -85,7 +85,7 @@
        lookup                                   ; Navigate your code and its documentation
        lsp                                      ; M-x vscode
        magit                                    ; A git porcelain for Emacs
-       ;;make                                   ; Run make tasks from Emacs
+       make                                   ; Run make tasks from Emacs
        ;;pass                                   ; Password manager for nerds
        pdf                                      ; PDF enhancements
        ;;prodigy                                ; FIXME managing external services & code builders
@@ -113,7 +113,7 @@
        ;;(dart +flutter)                        ; Paint ui and not much else
        ;; dhall
        ;;elixir                                 ; Erlang done right
-       ;;elm                                    ; Care for a cup of TEA?
+       elm                                    ; Care for a cup of TEA?
        emacs-lisp                               ; Drown in parentheses
        ;;erlang                                 ; An elegant language for a more civilized age
        ;;ess                                    ; Emacs speaks statistics
@@ -123,14 +123,14 @@
        ;;fsharp                                 ; ML stands for Microsoft's Language
        ;;fstar                                  ; (Dependent) types and (monadic) effects and Z3
        ;;gdscript                               ; The language you waited for
-       ;;(go +lsp)                              ; The hipster dialect
+       (go +lsp)                              ; The hipster dialect
        ;;(graphql +lsp)                         ; Give queries a REST
        (haskell +lsp)                           ; A language that's lazier than I am
        ;;hy                                     ; Readability of scheme w/ speed of python
        ;;idris                                  ; A language you can depend on
        ;;json                                   ; At least it ain't XML
        ;;(java +lsp)                            ; The poster child for carpal tunnel syndrome
-       ;;javascript                             ; All(hope(abandon(ye(who(enter(here))))))
+       javascript                             ; All(hope(abandon(ye(who(enter(here))))))
        ;;julia                                  ; A better, faster MATLAB
        ;;kotlin                                 ; A better, slicker Java(Script)
        (latex                                   ; Writing papers in Emacs has never been so fun
@@ -141,7 +141,7 @@
        ;;ledger                                 ; Be audit you can be
        (lua +fennel)                            ; One-based indices? one-based indices
        markdown                                 ; Writing docs for people to ignore
-       ;;nim                                    ; Python + lisp at the speed of c
+       nim                                    ; Python + lisp at the speed of c
        nix                                      ; I hereby declare "nix geht mehr!"
        ;;ocaml                                  ; An objective camel
        (org                                     ; Organize your plain life in plain text
@@ -172,8 +172,8 @@
        ;;swift                                  ; Who asked for emoji variables?
        ;;terra                                  ; Earth and Moon in alignment for performance.
        ;;web                                    ; The tubes
-       ;;yaml                                   ; JSON, but readable
-       ;;zig                                    ; C, but simpler
+       yaml                                   ; JSON, but readable
+       (zig +lsp)                                    ; C, but simpler
 
        :email
        ;;(mu4e +org +gmail)
@@ -183,7 +183,7 @@
        :app
        ;;calendar
        ;;emms
-       ;;everywhere                             ; *leave* Emacs!? You must be joking
+       everywhere                             ; *leave* Emacs!? You must be joking
        ;;irc                                    ; How neckbeards socialize
        ;;(rss +org)                             ; Emacs as an RSS reader
        ;;twitter                                ; Twitter client https://twitter.com/vnought
