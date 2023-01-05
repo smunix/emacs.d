@@ -9,7 +9,8 @@
       user-mail-address "gilganyx@pm.me")
 
 ;; Doom exposes five (optional) variables for controlling fonts in Doom:
-(setq doom-theme 'doom-tokyo-night)
+;; (setq doom-theme 'doom-tokyo-night)
+(setq doom-theme 'doom-acario-light)
 
 ;; Invert color swapping (solaire-mode)
 (with-eval-after-load 'solaire-mode
